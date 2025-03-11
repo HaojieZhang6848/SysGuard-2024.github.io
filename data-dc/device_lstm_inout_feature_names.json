@@ -1,0 +1,417 @@
+{
+  "Balcony_Curtain001": {
+    "in": [
+      "device_id",
+      "Balcony_Brightness_PgmPred",
+      "Balcony_Brightness",
+      "Balcony_Curtain001",
+      "Balcony_Light001",
+      "Context_Brightness"
+    ],
+    "out": [
+      "Balcony_Brightness"
+    ]
+  },
+  "Balcony_Light001": {
+    "in": [
+      "device_id",
+      "Balcony_Brightness_PgmPred",
+      "Balcony_Brightness",
+      "Balcony_Curtain001",
+      "Balcony_Light001",
+      "Context_Brightness"
+    ],
+    "out": [
+      "Balcony_Brightness"
+    ]
+  },
+  "Balcony_WashingMachine001": {
+    "in": [
+      "device_id",
+      "Balcony_Noise_PgmPred",
+      "Balcony_Noise",
+      "Balcony_WashingMachine001"
+    ],
+    "out": [
+      "Balcony_Noise"
+    ]
+  },
+  "Bathroom_BathHeater001": {
+    "in": [
+      "device_id",
+      "Bathroom_Temperature_PgmPred",
+      "Bathroom_BathHeater001",
+      "Bathroom_Temperature",
+      "Context_Temperature"
+    ],
+    "out": [
+      "Bathroom_Temperature"
+    ]
+  },
+  "Bathroom_Light001": {
+    "in": [
+      "device_id",
+      "Bathroom_Brightness_PgmPred",
+      "Bathroom_Brightness",
+      "Bathroom_Light001",
+      "Context_Brightness"
+    ],
+    "out": [
+      "Bathroom_Brightness"
+    ]
+  },
+  "BedroomOne_AC001": {
+    "in": [
+      "device_id",
+      "BedroomOne_Temperature_PgmPred",
+      "BedroomOne_AC001",
+      "BedroomOne_Heater001",
+      "BedroomOne_Temperature",
+      "BedroomOne_Window001",
+      "Context_Temperature"
+    ],
+    "out": [
+      "BedroomOne_Temperature"
+    ]
+  },
+  "BedroomOne_AirPurifier001": {
+    "in": [
+      "device_id",
+      "BedroomOne_AirQuality_PgmPred",
+      "BedroomOne_AirPurifier001",
+      "BedroomOne_AirQuality",
+      "BedroomOne_Window001",
+      "Context_AirQuality"
+    ],
+    "out": [
+      "BedroomOne_AirQuality"
+    ]
+  },
+  "BedroomOne_Curtain001": {
+    "in": [
+      "device_id",
+      "BedroomOne_Brightness_PgmPred",
+      "BedroomOne_Brightness",
+      "BedroomOne_Curtain001",
+      "BedroomOne_Light001",
+      "Context_Brightness"
+    ],
+    "out": [
+      "BedroomOne_Brightness"
+    ]
+  },
+  "BedroomOne_Heater001": {
+    "in": [
+      "device_id",
+      "BedroomOne_Temperature_PgmPred",
+      "BedroomOne_AC001",
+      "BedroomOne_Heater001",
+      "BedroomOne_Temperature",
+      "BedroomOne_Window001",
+      "Context_Temperature"
+    ],
+    "out": [
+      "BedroomOne_Temperature"
+    ]
+  },
+  "BedroomOne_Humidifier001": {
+    "in": [
+      "device_id",
+      "BedroomOne_Humidity_PgmPred",
+      "BedroomOne_Humidifier001",
+      "BedroomOne_Humidity",
+      "BedroomOne_Window001",
+      "Context_Humidity"
+    ],
+    "out": [
+      "BedroomOne_Humidity"
+    ]
+  },
+  "BedroomOne_Light001": {
+    "in": [
+      "device_id",
+      "BedroomOne_Brightness_PgmPred",
+      "BedroomOne_Brightness",
+      "BedroomOne_Curtain001",
+      "BedroomOne_Light001",
+      "Context_Brightness"
+    ],
+    "out": [
+      "BedroomOne_Brightness"
+    ]
+  },
+  "BedroomTwo_AC001": {
+    "in": [
+      "device_id",
+      "BedroomTwo_Temperature_PgmPred",
+      "BedroomTwo_AC001",
+      "BedroomTwo_Heater001",
+      "BedroomTwo_Temperature",
+      "BedroomTwo_Window001",
+      "BedroomTwo_Window002",
+      "Context_Temperature"
+    ],
+    "out": [
+      "BedroomTwo_Temperature"
+    ]
+  },
+  "BedroomTwo_AirPurifier001": {
+    "in": [
+      "device_id",
+      "BedroomTwo_AirQuality_PgmPred",
+      "BedroomTwo_AirPurifier001",
+      "BedroomTwo_AirQuality",
+      "BedroomTwo_Window001",
+      "BedroomTwo_Window002",
+      "Context_AirQuality"
+    ],
+    "out": [
+      "BedroomTwo_AirQuality"
+    ]
+  },
+  "BedroomTwo_Curtain001": {
+    "in": [
+      "device_id",
+      "BedroomTwo_Brightness_PgmPred",
+      "BedroomTwo_Brightness",
+      "BedroomTwo_Curtain001",
+      "BedroomTwo_Light001",
+      "Context_Brightness"
+    ],
+    "out": [
+      "BedroomTwo_Brightness"
+    ]
+  },
+  "BedroomTwo_Heater001": {
+    "in": [
+      "device_id",
+      "BedroomTwo_Temperature_PgmPred",
+      "BedroomTwo_AC001",
+      "BedroomTwo_Heater001",
+      "BedroomTwo_Temperature",
+      "BedroomTwo_Window001",
+      "BedroomTwo_Window002",
+      "Context_Temperature"
+    ],
+    "out": [
+      "BedroomTwo_Temperature"
+    ]
+  },
+  "BedroomTwo_Humidifier001": {
+    "in": [
+      "device_id",
+      "BedroomTwo_Humidity_PgmPred",
+      "BedroomTwo_Humidifier001",
+      "BedroomTwo_Humidity",
+      "BedroomTwo_Window001",
+      "BedroomTwo_Window002",
+      "Context_Humidity"
+    ],
+    "out": [
+      "BedroomTwo_Humidity"
+    ]
+  },
+  "BedroomTwo_Light001": {
+    "in": [
+      "device_id",
+      "BedroomTwo_Brightness_PgmPred",
+      "BedroomTwo_Brightness",
+      "BedroomTwo_Curtain001",
+      "BedroomTwo_Light001",
+      "Context_Brightness"
+    ],
+    "out": [
+      "BedroomTwo_Brightness"
+    ]
+  },
+  "BedroomTwo_TV001": {
+    "in": [
+      "device_id",
+      "BedroomTwo_Noise_PgmPred",
+      "BedroomTwo_Noise",
+      "BedroomTwo_TV001"
+    ],
+    "out": [
+      "BedroomTwo_Noise"
+    ]
+  },
+  "Cloakroom_Light001": {
+    "in": [
+      "device_id",
+      "Cloakroom_Brightness_PgmPred",
+      "Cloakroom_Brightness",
+      "Cloakroom_Light001",
+      "Context_Brightness"
+    ],
+    "out": [
+      "Cloakroom_Brightness"
+    ]
+  },
+  "Kitchen_CookerHood001": {
+    "in": [
+      "device_id",
+      "Kitchen_AirQuality_PgmPred",
+      "Kitchen_COLevel_PgmPred",
+      "Context_AirQuality",
+      "Kitchen_AirQuality",
+      "Kitchen_COLevel",
+      "Kitchen_CookerHood001",
+      "Kitchen_GasStove001",
+      "Kitchen_Window001"
+    ],
+    "out": [
+      "Kitchen_AirQuality",
+      "Kitchen_COLevel"
+    ]
+  },
+  "Kitchen_Curtain001": {
+    "in": [
+      "device_id",
+      "Kitchen_Brightness_PgmPred",
+      "Context_Brightness",
+      "Kitchen_Brightness",
+      "Kitchen_Curtain001",
+      "Kitchen_Light001"
+    ],
+    "out": [
+      "Kitchen_Brightness"
+    ]
+  },
+  "Kitchen_GasStove001": {
+    "in": [
+      "device_id",
+      "Kitchen_AirQuality_PgmPred",
+      "Kitchen_COLevel_PgmPred",
+      "Context_AirQuality",
+      "Kitchen_AirQuality",
+      "Kitchen_COLevel",
+      "Kitchen_CookerHood001",
+      "Kitchen_GasStove001",
+      "Kitchen_Window001"
+    ],
+    "out": [
+      "Kitchen_AirQuality",
+      "Kitchen_COLevel"
+    ]
+  },
+  "Kitchen_Light001": {
+    "in": [
+      "device_id",
+      "Kitchen_Brightness_PgmPred",
+      "Context_Brightness",
+      "Kitchen_Brightness",
+      "Kitchen_Curtain001",
+      "Kitchen_Light001"
+    ],
+    "out": [
+      "Kitchen_Brightness"
+    ]
+  },
+  "LivingRoom_AC001": {
+    "in": [
+      "device_id",
+      "LivingRoom_Temperature_PgmPred",
+      "Context_Temperature",
+      "LivingRoom_AC001",
+      "LivingRoom_Heater001",
+      "LivingRoom_Temperature",
+      "LivingRoom_Window001"
+    ],
+    "out": [
+      "LivingRoom_Temperature"
+    ]
+  },
+  "LivingRoom_AirPurifier001": {
+    "in": [
+      "device_id",
+      "LivingRoom_AirQuality_PgmPred",
+      "Context_AirQuality",
+      "LivingRoom_AirPurifier001",
+      "LivingRoom_AirQuality",
+      "LivingRoom_Window001"
+    ],
+    "out": [
+      "LivingRoom_AirQuality"
+    ]
+  },
+  "LivingRoom_Curtain001": {
+    "in": [
+      "device_id",
+      "LivingRoom_Brightness_PgmPred",
+      "Context_Brightness",
+      "LivingRoom_Brightness",
+      "LivingRoom_Curtain001",
+      "LivingRoom_Light001",
+      "LivingRoom_Light002"
+    ],
+    "out": [
+      "LivingRoom_Brightness"
+    ]
+  },
+  "LivingRoom_Heater001": {
+    "in": [
+      "device_id",
+      "LivingRoom_Temperature_PgmPred",
+      "Context_Temperature",
+      "LivingRoom_AC001",
+      "LivingRoom_Heater001",
+      "LivingRoom_Temperature",
+      "LivingRoom_Window001"
+    ],
+    "out": [
+      "LivingRoom_Temperature"
+    ]
+  },
+  "LivingRoom_Humidifier001": {
+    "in": [
+      "device_id",
+      "LivingRoom_Humidity_PgmPred",
+      "Context_Humidity",
+      "LivingRoom_Humidifier001",
+      "LivingRoom_Humidity",
+      "LivingRoom_Window001"
+    ],
+    "out": [
+      "LivingRoom_Humidity"
+    ]
+  },
+  "LivingRoom_Light001": {
+    "in": [
+      "device_id",
+      "LivingRoom_Brightness_PgmPred",
+      "Context_Brightness",
+      "LivingRoom_Brightness",
+      "LivingRoom_Curtain001",
+      "LivingRoom_Light001",
+      "LivingRoom_Light002"
+    ],
+    "out": [
+      "LivingRoom_Brightness"
+    ]
+  },
+  "LivingRoom_Light002": {
+    "in": [
+      "device_id",
+      "LivingRoom_Brightness_PgmPred",
+      "Context_Brightness",
+      "LivingRoom_Brightness",
+      "LivingRoom_Curtain001",
+      "LivingRoom_Light001",
+      "LivingRoom_Light002"
+    ],
+    "out": [
+      "LivingRoom_Brightness"
+    ]
+  },
+  "LivingRoom_TV001": {
+    "in": [
+      "device_id",
+      "LivingRoom_Noise_PgmPred",
+      "LivingRoom_Noise",
+      "LivingRoom_TV001"
+    ],
+    "out": [
+      "LivingRoom_Noise"
+    ]
+  }
+}

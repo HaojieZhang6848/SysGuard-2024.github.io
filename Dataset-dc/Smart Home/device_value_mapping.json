@@ -1,0 +1,135 @@
+{
+    "AC": {
+        "on": 1,
+        "off": 0
+    },
+    "AirPurifier": {
+        "on": 1,
+        "off": 0
+    },
+    "BathHeater": {
+        "on": 1,
+        "off": 0
+    },
+    "CookerHood": {
+        "on": 1,
+        "off": 0
+    },
+    "Curtain": {
+        "open": 1,
+        "close": 0
+    },
+    "Door": {
+        "open": 1,
+        "close": 0
+    },
+    "Fridge": {
+        "on": 1,
+        "off": 0
+    },
+    "GasStove": {
+        "on": 1,
+        "off": 0
+    },
+    "Heater": {
+        "on": 1,
+        "off": 0
+    },
+    "Humidifier": {
+        "on": 1,
+        "off": 0
+    },
+    "Light": {
+        "on": 1,
+        "off": 0
+    },
+    "MicrowaveOven": {
+        "on": 1,
+        "off": 0
+    },
+    "Printer": {
+        "on": 1,
+        "off": 0
+    },
+    "Projector": {
+        "on": 1,
+        "off": 0
+    },
+    "Speaker": {
+        "on": 1,
+        "off": 0
+    },
+    "TowelDryer": {
+        "on": 1,
+        "off": 0
+    },
+    "TV": {
+        "on": 1,
+        "off": 0
+    },
+    "WashingMachine": {
+        "on": 1,
+        "off": 0
+    },
+    "WaterHeater": {
+        "on": 1,
+        "off": 0
+    },
+    "Window": {
+        "open": 1,
+        "close": 0
+    },
+    "AirQuality": {
+        "SeverePollution": 0,
+        "Poor": 1,
+        "Good": 2,
+        "Excellent": 3
+    },
+    "Brightness": {
+        "Dark": 0,
+        "Dim": 1,
+        "ComfortableBrightness": 2,
+        "ExcessivelyBright": 3
+    },
+    "COLevel": {
+        "Excellent": 0,
+        "Acceptable": 1,
+        "ExcessivelyHigh": 2
+    },
+    "EnergyConsumption": {
+        "LowEnergy": 0,
+        "Standard": 1,
+        "ExcessivelyHigh": 2
+    },
+    "HumanState": {
+        "Undetected": 0,
+        "Detected": 1
+    },
+    "Humidity": {
+        "ExtremelyDry": 0,
+        "Dry": 1,
+        "ComfortableHumidity": 2,
+        "Moist": 3,
+        "ExcessivelyHumid": 4
+    },
+    "Noise": {
+        "Quiet": 0,
+        "ComfortableSilence": 1,
+        "Noisy": 2,
+        "ExcessivelyNoisy": 3
+    },
+    "Temperature": {
+        "ExcessivelyCold": 0,
+        "Cold": 1,
+        "Comfortable": 2,
+        "Warm": 3,
+        "ExcessivelyHot": 4
+    },
+    "UltravioletLevel": {
+        "ExcessivelyLow": 0,
+        "RelativelyLow": 1,
+        "Moderate": 2,
+        "RelativelyHigh": 3,
+        "ExcessivelyHigh": 4
+    }
+}

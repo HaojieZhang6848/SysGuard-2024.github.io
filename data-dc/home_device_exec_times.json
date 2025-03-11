@@ -1,0 +1,194 @@
+{
+    "Balcony_Light001": {
+        "fault": {
+            "start": 1711901186,
+            "end": 1711968611
+        }
+    },
+    "Balcony_WashingMachine001": {
+        "fault": {
+            "start": 1711968611,
+            "end": 1712028131
+        }
+    },
+    "Balcony_Curtain001": {
+        "fault": {
+            "start": 1712028131,
+            "end": 1712086464
+        }
+    },
+    "LivingRoom_Heater001": {
+        "fault": {
+            "start": 1712086464,
+            "end": 1712157365
+        }
+    },
+    "LivingRoom_Humidifier001": {
+        "fault": {
+            "start": 1712157365,
+            "end": 1712227342
+        }
+    },
+    "LivingRoom_AC001": {
+        "fault": {
+            "start": 1712227343,
+            "end": 1712293163
+        }
+    },
+    "LivingRoom_TV001": {
+        "fault": {
+            "start": 1712293163,
+            "end": 1712351526
+        }
+    },
+    "LivingRoom_Curtain001": {
+        "fault": {
+            "start": 1712351527,
+            "end": 1712422653
+        }
+    },
+    "LivingRoom_Light001": {
+        "fault": {
+            "start": 1712422653,
+            "end": 1712476954
+        }
+    },
+    "LivingRoom_AirPurifier001": {
+        "fault": {
+            "start": 1712476955,
+            "end": 1712530800
+        }
+    },
+    "LivingRoom_Light002": {
+        "fault": {
+            "start": 1712530800,
+            "end": 1712601728
+        }
+    },
+    "Kitchen_GasStove001": {
+        "fault": {
+            "start": 1712601728,
+            "end": 1712662965
+        }
+    },
+    "Kitchen_Curtain001": {
+        "fault": {
+            "start": 1712662965,
+            "end": 1712726437
+        }
+    },
+    "Kitchen_CookerHood001": {
+        "fault": {
+            "start": 1712726437,
+            "end": 1712786798
+        }
+    },
+    "Kitchen_Light001": {
+        "fault": {
+            "start": 1712786799,
+            "end": 1712852429
+        }
+    },
+    "BedroomOne_Heater001": {
+        "fault": {
+            "start": 1712852429,
+            "end": 1712923566
+        }
+    },
+    "BedroomOne_Light001": {
+        "fault": {
+            "start": 1712923566,
+            "end": 1712990153
+        }
+    },
+    "BedroomOne_AC001": {
+        "fault": {
+            "start": 1712990154,
+            "end": 1713043800
+        }
+    },
+    "BedroomOne_Curtain001": {
+        "fault": {
+            "start": 1713043800,
+            "end": 1713114869
+        }
+    },
+    "BedroomOne_AirPurifier001": {
+        "fault": {
+            "start": 1713114870,
+            "end": 1713173861
+        }
+    },
+    "BedroomOne_Humidifier001": {
+        "fault": {
+            "start": 1713173861,
+            "end": 1713246132
+        }
+    },
+    "Bathroom_Light001": {
+        "fault": {
+            "start": 1713246134,
+            "end": 1713310640
+        }
+    },
+    "Bathroom_BathHeater001": {
+        "fault": {
+            "start": 1713310640,
+            "end": 1713372822
+        }
+    },
+    "Bathroom_WaterHeater001": {
+        "fault": {
+            "start": 1713372822,
+            "end": 1713443635
+        }
+    },
+    "Cloakroom_Light001": {
+        "fault": {
+            "start": 1713443636,
+            "end": 1713510239
+        }
+    },
+    "BedroomTwo_Heater001": {
+        "fault": {
+            "start": 1713510239,
+            "end": 1713573608
+        }
+    },
+    "BedroomTwo_AC001": {
+        "fault": {
+            "start": 1713573609,
+            "end": 1713630455
+        }
+    },
+    "BedroomTwo_TV001": {
+        "fault": {
+            "start": 1713630455,
+            "end": 1713701378
+        }
+    },
+    "BedroomTwo_Curtain001": {
+        "fault": {
+            "start": 1713701379,
+            "end": 1713759426
+        }
+    },
+    "BedroomTwo_Light001": {
+        "fault": {
+            "start": 1713759427,
+            "end": 1713829709
+        }
+    },
+    "BedroomTwo_AirPurifier001": {
+        "fault": {
+            "start": 1713829710,
+            "end": 1713902140
+        }
+    },
+    "BedroomTwo_Humidifier001": {
+        "fault": {
+            "start": 1713902141,
+            "end": 1713972834
+        }
+    }
+}

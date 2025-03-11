@@ -1,0 +1,21 @@
+DEVICE_LOG_INPUT='Dataset/Smart Home/Device Log Train 1' SORTED_COMBINED_LOG=data/01_device_sorted_combined_log_train1_2.xlsx DEVICE_STATE_HISTORY=data/02_device_state_history_train1_2.xlsx TIME_SERIES_WINDOWS=data/03_time_series_windows_train1_2.xlsx KEEP_TIMESTAMP=1 TAU=2 python3 Code/SysGuard-My/device_log_process.py
+
+DEVICE_LOG_INPUT='Dataset/Smart Home/Device Log Train 2' SORTED_COMBINED_LOG=data/01_device_sorted_combined_log_train2_2.xlsx DEVICE_STATE_HISTORY=data/02_device_state_history_train2_2.xlsx TIME_SERIES_WINDOWS=data/03_time_series_windows_train2_2.xlsx KEEP_TIMESTAMP=1 TAU=2 python3 Code/SysGuard-My/device_log_process.py
+
+DEVICE_LOG_INPUT='Dataset/Smart Home/Device Log Test' SORTED_COMBINED_LOG=data/01_device_sorted_combined_log_test_2.xlsx DEVICE_STATE_HISTORY=data/02_device_state_history_test_2.xlsx TIME_SERIES_WINDOWS=data/03_time_series_windows_test_2.xlsx KEEP_TIMESTAMP=1 TAU=2 python3 Code/SysGuard-My/device_log_process.py
+
+DEVICE_LOG_INPUT='Dataset-dc/Smart Home/Device Log' SORTED_COMBINED_LOG=data-dc/01_device_sorted_combined_log_2.xlsx DEVICE_STATE_HISTORY=data-dc/02_device_state_history_2.xlsx TIME_SERIES_WINDOWS=data-dc/03_time_series_windows_2.xlsx KEEP_TIMESTAMP=1 TAU=2 python3 Code/SysGuard-My/device_log_process.py
+
+conda activate sysguard && TAU=2 METHOD=a python3 Code/SysGuard-My/train_evaluate.py
+
+conda activate sysguard && TAU=2 METHOD=b python3 Code/SysGuard-My/train_evaluate.py
+
+conda activate sysguard && TAU=2 METHOD=a CALC_DIFF_METHOD=2 python3 -u Code/DeviceChecker/pgm/pgm_evaluate.py > eval-pgm.log 2>&1
+
+conda activate sysguard && TAU=2 python3 -u Code/DeviceChecker/lstm/lstm_data_preprocess.py > lstm_data_preprocess.log 2>&1
+
+conda activate sysguard && python3 -u Code/DeviceChecker/lstm/lstm_train.py hyperparameter_search 1 > lstm_train1.log
+
+conda activate sysguard && DAG_METHOD=a python3 -u Code/DeviceChecker/gnn/gnn_data_preprocess.py > gnn_data_preprocess.log 2>&1
+
+conda activate sysguard && TAU=2 python3 -u Code/DeviceChecker/gnn/gnn_train_evaluate.py > gnn_train_evaluate.log
